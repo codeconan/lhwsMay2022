@@ -36248,20 +36248,20 @@ presetsFactory = {
   generateContainerPreset: function generateContainerPreset(presetId) {
     var text = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
     var presets = {
-      '33-33-33': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"29\" height=\"44\" />\n\t\t\t\t\t<rect x=\"30.5\" width=\"29\" height=\"44\" />\n\t\t\t\t\t<rect x=\"60.5\" width=\"29\" height=\"44\" />\n\t\t\t\t</svg>\n\t\t\t",
-      '50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"44\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"44\" />\n\t\t\t\t</svg>\n\t\t\t",
-      'c100-c50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"44\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t</svg>\n\t\t\t",
-      '50-50-50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"0.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t</svg>\n\t\t\t",
-      '33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"59\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '25-25-25-25': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"22.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"45\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"67.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '25-50-25': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"22.5\" width=\"44\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"67.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '50-50-100': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"44\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"45\" width=\"44\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"89\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '33-33-33-33-33-33': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '33-33-33-33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"59\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      '66-33-33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"59\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"59\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
-      c100: "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<title>".concat(__('Direction Column', 'elementor'), "</title>\n\t\t\t\t\t<rect width=\"89\" height=\"44\" />\n\t\t\t\t\t<path d=\"M43.956 24.644L42 22.748C41.848 22.596 41.672 22.52 41.472 22.52C41.28 22.52 41.108 22.596 40.956 22.748C40.804 22.9 40.728 23.076 40.728 23.276C40.728 23.476 40.804 23.652 40.956 23.804L44.304 27.056C44.456 27.208 44.628 27.284 44.82 27.284C45.02 27.284 45.196 27.208 45.348 27.056L48.504 23.852C48.656 23.7 48.732 23.524 48.732 23.324C48.732 23.124 48.656 22.948 48.504 22.796C48.352 22.644 48.176 22.568 47.976 22.568C47.776 22.568 47.6 22.644 47.448 22.796L45.456 24.848L45.504 17.048C45.504 16.848 45.428 16.676 45.276 16.532C45.124 16.38 44.948 16.304 44.748 16.304C44.548 16.304 44.372 16.38 44.22 16.532C44.076 16.676 44.004 16.848 44.004 17.048L43.956 24.644Z\"/>\n\t\t\t\t</svg>\n\t\t\t"),
-      r100: "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t<title>".concat(__('Direction Row', 'elementor'), "</title>\n\t\t\t\t\t<rect width=\"89\" height=\"44\"/>\n\t\t\t\t\t<path d=\"M47.856 23.352L45.948 25.296C45.796 25.448 45.72 25.624 45.72 25.824C45.72 26.024 45.796 26.2 45.948 26.352C46.1 26.504 46.276 26.58 46.476 26.58C46.676 26.58 46.852 26.504 47.004 26.352L50.256 23.004C50.408 22.852 50.484 22.676 50.484 22.476C50.484 22.276 50.408 22.1 50.256 21.948L47.052 18.804C46.9 18.652 46.724 18.576 46.524 18.576C46.324 18.576 46.148 18.652 45.996 18.804C45.844 18.956 45.768 19.132 45.768 19.332C45.768 19.524 45.844 19.696 45.996 19.848L48.048 21.852L40.248 21.804C40.048 21.804 39.872 21.88 39.72 22.032C39.576 22.176 39.504 22.348 39.504 22.548C39.504 22.748 39.576 22.924 39.72 23.076C39.872 23.228 40.048 23.304 40.248 23.304L47.856 23.352Z\"/>\n\t\t\t\t</svg>\n\t\t\t"),
-      default: "\n\t\t\t\t<div style=\"--text:'".concat(text, "'\" class=\"e-preset--container\">\n\t\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n\t\t\t\t\t\t<rect width=\"89\" height=\"44\" transform=\"translate(0.5)\" />\n\t\t\t\t\t\t<rect x=\"3\" y=\"2.5\" width=\"84\" height=\"39\" rx=\"2.5\" stroke=\"#FCFCFC\" stroke-linejoin=\"round\" stroke-dasharray=\"3 2\"/>\n\t\t\t\t\t</svg>\n\t\t\t\t</div>\n\t\t\t")
+      '33-33-33': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"29\" height=\"44\" />\n\t\t\t\t\t<rect x=\"30.5\" width=\"29\" height=\"44\" />\n\t\t\t\t\t<rect x=\"60.5\" width=\"29\" height=\"44\" />\n\t\t\t\t</svg>\n\t\t\t",
+      '50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"44\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"44\" />\n\t\t\t\t</svg>\n\t\t\t",
+      'c100-c50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"44\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t</svg>\n\t\t\t",
+      '50-50-50-50': "\n\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect x=\"0.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"0.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t\t<rect x=\"45.5\" y=\"22.5\" width=\"44\" height=\"21.5\" />\n\t\t\t\t</svg>\n\t\t\t",
+      '33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"59\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '25-25-25-25': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"22.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"45\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"67.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '25-50-25': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"21.5\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"22.5\" width=\"44\" height=\"44\"/>\n\t\t\t\t\t<rect x=\"67.5\" width=\"21.5\" height=\"44\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '50-50-100': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"44\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"45\" width=\"44\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"89\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '33-33-33-33-33-33': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '33-33-33-33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"59\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      '66-33-33-66': "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<rect width=\"59\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"60\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect y=\"22.5\" width=\"29\" height=\"21.5\"/>\n\t\t\t\t\t<rect x=\"30\" y=\"22.5\" width=\"59\" height=\"21.5\"/>\n\t\t\t\t</svg>\n\t\t\t",
+      c100: "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<title>".concat(__('Direction Column', 'elementor'), "</title>\n\t\t\t\t\t<rect width=\"89\" height=\"44\" />\n\t\t\t\t\t<path d=\"M43.956 24.644L42 22.748C41.848 22.596 41.672 22.52 41.472 22.52C41.28 22.52 41.108 22.596 40.956 22.748C40.804 22.9 40.728 23.076 40.728 23.276C40.728 23.476 40.804 23.652 40.956 23.804L44.304 27.056C44.456 27.208 44.628 27.284 44.82 27.284C45.02 27.284 45.196 27.208 45.348 27.056L48.504 23.852C48.656 23.7 48.732 23.524 48.732 23.324C48.732 23.124 48.656 22.948 48.504 22.796C48.352 22.644 48.176 22.568 47.976 22.568C47.776 22.568 47.6 22.644 47.448 22.796L45.456 24.848L45.504 17.048C45.504 16.848 45.428 16.676 45.276 16.532C45.124 16.38 44.948 16.304 44.748 16.304C44.548 16.304 44.372 16.38 44.22 16.532C44.076 16.676 44.004 16.848 44.004 17.048L43.956 24.644Z\"/>\n\t\t\t\t</svg>\n\t\t\t"),
+      r100: "\n\t\t\t\t<svg viewBox=\"0 0 89 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t<title>".concat(__('Direction Row', 'elementor'), "</title>\n\t\t\t\t\t<rect width=\"89\" height=\"44\"/>\n\t\t\t\t\t<path d=\"M47.856 23.352L45.948 25.296C45.796 25.448 45.72 25.624 45.72 25.824C45.72 26.024 45.796 26.2 45.948 26.352C46.1 26.504 46.276 26.58 46.476 26.58C46.676 26.58 46.852 26.504 47.004 26.352L50.256 23.004C50.408 22.852 50.484 22.676 50.484 22.476C50.484 22.276 50.408 22.1 50.256 21.948L47.052 18.804C46.9 18.652 46.724 18.576 46.524 18.576C46.324 18.576 46.148 18.652 45.996 18.804C45.844 18.956 45.768 19.132 45.768 19.332C45.768 19.524 45.844 19.696 45.996 19.848L48.048 21.852L40.248 21.804C40.048 21.804 39.872 21.88 39.72 22.032C39.576 22.176 39.504 22.348 39.504 22.548C39.504 22.748 39.576 22.924 39.72 23.076C39.872 23.228 40.048 23.304 40.248 23.304L47.856 23.352Z\"/>\n\t\t\t\t</svg>\n\t\t\t"),
+      default: "\n\t\t\t\t<div style=\"--text:'".concat(text, "'\" class=\"e-preset--container\">\n\t\t\t\t\t<svg viewBox=\"0 0 90 44\" fill=\"none\" xmlns=\"https://www.w3.org/2000/svg\">\n\t\t\t\t\t\t<rect width=\"89\" height=\"44\" transform=\"translate(0.5)\" />\n\t\t\t\t\t\t<rect x=\"3\" y=\"2.5\" width=\"84\" height=\"39\" rx=\"2.5\" stroke=\"#FCFCFC\" stroke-linejoin=\"round\" stroke-dasharray=\"3 2\"/>\n\t\t\t\t\t</svg>\n\t\t\t\t</div>\n\t\t\t")
     };
     return presets[presetId] || presets.default;
   },
@@ -39076,7 +39076,7 @@ var EventManager = function EventManager() {
   }
   /**
    * Use an insert sort for keeping our hooks organized based on priority. This function is ridiculously faster
-   * than bubble sort, etc: http://jsperf.com/javascript-sort
+   * than bubble sort, etc: https://jsperf.com/javascript-sort
    *
    * @param hooks The custom array containing all of the appropriate hooks to perform an insert sort on.
    * @private
@@ -39117,7 +39117,7 @@ var EventManager = function EventManager() {
       callback: callback,
       priority: priority,
       context: context
-    }; // Utilize 'prop itself' : http://jsperf.com/hasownproperty-vs-in-vs-undefined/19
+    }; // Utilize 'prop itself' : https://jsperf.com/hasownproperty-vs-in-vs-undefined/19
 
     var hooks = STORAGE[type][hook];
 
@@ -51820,7 +51820,7 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ "../node_modules/cor
   \**********************************************************/
 /***/ ((module) => {
 
-// fast apply, http://jsperf.lnkit.com/fast-apply/5
+// fast apply, https://jsperf.lnkit.com/fast-apply/5
 module.exports = function (fn, args, that) {
   var un = that === undefined;
   switch (args.length) {
@@ -55366,7 +55366,7 @@ module.exports = function (that, target, C) {
   \**************************************************/
 /***/ ((module) => {
 
-// fast apply, http://jsperf.lnkit.com/fast-apply/5
+// fast apply, https://jsperf.lnkit.com/fast-apply/5
 module.exports = function (fn, args, that) {
   var un = that === undefined;
   switch (args.length) {
@@ -58655,7 +58655,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           var err = new Error(
             'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
             'Use `PropTypes.checkPropTypes()` to call them. ' +
-            'Read more at http://fb.me/use-check-prop-types'
+            'Read more at https://fb.me/use-check-prop-types'
           );
           err.name = 'Invariant Violation';
           throw err;
@@ -59084,7 +59084,7 @@ if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
-  // http://fb.me/prop-types-in-prod
+  // https://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}

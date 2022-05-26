@@ -263,7 +263,7 @@ var _default = elementorModules.frontend.handlers.Base.extend({
   addHighlight() {
     const elementSettings = this.getElementSettings(),
           $svg = jQuery('<svg>', {
-      xmlns: 'http://www.w3.org/2000/svg',
+      xmlns: 'https://www.w3.org/2000/svg',
       viewBox: '0 0 500 150',
       preserveAspectRatio: 'none'
     }).html(this.getSvgPaths(elementSettings.marker));

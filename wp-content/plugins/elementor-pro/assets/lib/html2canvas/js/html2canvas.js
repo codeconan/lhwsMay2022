@@ -13,7 +13,7 @@
     Copyright (c) Microsoft Corporation. All rights reserved.
     Licensed under the Apache License, Version 2.0 (the "License"); you may not use
     this file except in compliance with the License. You may obtain a copy of the
-    License at http://www.apache.org/licenses/LICENSE-2.0
+    License at https://www.apache.org/licenses/LICENSE-2.0
 
     THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
     KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
@@ -2248,7 +2248,7 @@
 		if (!ctx) {
 			return false;
 		}
-		img.src = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'></svg>";
+		img.src = "data:image/svg+xml,<svg xmlns='https://www.w3.org/2000/svg'></svg>";
 		try {
 			ctx.drawImage(img, 0, 0);
 			canvas.toDataURL();
@@ -2300,7 +2300,7 @@
 			.catch(function () { return false; });
 	};
 	var createForeignObjectSVG = function (width, height, x, y, node) {
-		var xmlns = 'http://www.w3.org/2000/svg';
+		var xmlns = 'https://www.w3.org/2000/svg';
 		var svg = document.createElementNS(xmlns, 'svg');
 		var foreignObject = document.createElementNS(xmlns, 'foreignObject');
 		svg.setAttributeNS(null, 'width', width.toString());
@@ -2454,7 +2454,7 @@
 				return 'about:blank';
 			}
 			link.href = url;
-			link.href = link.href; // IE9, LOL! - http://jsfiddle.net/niklasvh/2e48b/
+			link.href = link.href; // IE9, LOL! - https://jsfiddle.net/niklasvh/2e48b/
 			return link.protocol + link.hostname + link.port;
 		};
 		CacheStorage.isSameOrigin = function (src) {
@@ -4430,7 +4430,7 @@
 					iframe.contentWindow.document &&
 					iframe.contentWindow.document.documentElement) {
 					_this.tree = parseTree(iframe.contentWindow.document.documentElement);
-					// http://www.w3.org/TR/css3-background/#special-backgrounds
+					// https://www.w3.org/TR/css3-background/#special-backgrounds
 					var documentBackgroundColor = iframe.contentWindow.document.documentElement
 						? parseColor(getComputedStyle(iframe.contentWindow.document.documentElement)
 							.backgroundColor)

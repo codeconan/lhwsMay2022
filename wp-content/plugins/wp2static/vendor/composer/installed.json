@@ -69,7 +69,7 @@
                 }
             ],
             "description": "Safely namespaced Guzzle for WP2Static",
-            "homepage": "http://guzzlephp.org/",
+            "homepage": "https://guzzlephp.org/",
             "keywords": [
                 "client",
                 "curl",
@@ -257,7 +257,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP clients",
@@ -311,7 +311,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for HTTP messages",
@@ -417,11 +417,11 @@
                 {
                     "name": "Christoph Singer",
                     "email": "singer@webagentur72.de",
-                    "homepage": "http://www.webagentur72.de"
+                    "homepage": "https://www.webagentur72.de"
                 }
             ],
             "description": "Class for handling and manipulating URLs",
-            "homepage": "http://github.com/wasinger/url",
+            "homepage": "https://github.com/wasinger/url",
             "support": {
                 "issues": "https://github.com/wasinger/url/issues",
                 "source": "https://github.com/wasinger/url/tree/master"

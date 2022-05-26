@@ -813,7 +813,7 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ "../../../node_modul
   \****************************************************************/
 /***/ ((module) => {
 
-// fast apply, http://jsperf.lnkit.com/fast-apply/5
+// fast apply, https://jsperf.lnkit.com/fast-apply/5
 module.exports = function (fn, args, that) {
   var un = that === undefined;
   switch (args.length) {

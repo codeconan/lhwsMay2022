@@ -199,11 +199,11 @@ function isPreloadable(linkElement) {
 		return
 	}
 
-	if (!['http:', 'https:'].includes(linkElement.protocol)) {
+	if (!['https:', 'https:'].includes(linkElement.protocol)) {
 		return
 	}
 
-	if (linkElement.protocol == 'http:' && location.protocol == 'https:') {
+	if (linkElement.protocol == 'https:' && location.protocol == 'https:') {
 		return
 	}
 

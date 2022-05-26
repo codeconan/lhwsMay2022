@@ -2261,7 +2261,7 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ "../node_modules/cor
   \**********************************************************/
 /***/ ((module) => {
 
-// fast apply, http://jsperf.lnkit.com/fast-apply/5
+// fast apply, https://jsperf.lnkit.com/fast-apply/5
 module.exports = function (fn, args, that) {
   var un = that === undefined;
   switch (args.length) {
@@ -6265,7 +6265,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "e-preloader{--default-duartion: 1000ms
 
 
 /*
-  MIT License http://www.opensource.org/licenses/mit-license.php
+  MIT License https://www.opensource.org/licenses/mit-license.php
   Author Tobias Koppers @sokra
 */
 // css base code, injected by the css-loader

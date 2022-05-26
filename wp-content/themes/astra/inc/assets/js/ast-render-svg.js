@@ -21,7 +21,7 @@ function renderSVG ( svg ) {
 		var viewBox = viewbox_array.join( " " )
 
 		return (
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox={viewBox}><path d={path}></path></svg>
+			<svg xmlns="https://www.w3.org/2000/svg" viewBox={viewBox}><path d={path}></path></svg>
 		)
 	}
 

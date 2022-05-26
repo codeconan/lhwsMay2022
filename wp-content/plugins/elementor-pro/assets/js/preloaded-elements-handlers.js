@@ -139,7 +139,7 @@ class IconsManager {
       IconsManager.symbolsContainer = document.getElementById(symbolsContainerId);
 
       if (!IconsManager.symbolsContainer) {
-        IconsManager.symbolsContainer = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        IconsManager.symbolsContainer = document.createElementNS('https://www.w3.org/2000/svg', 'svg');
         IconsManager.symbolsContainer.setAttributeNS(null, 'style', 'display: none;');
         IconsManager.symbolsContainer.setAttributeNS(null, 'class', symbolsContainerId);
         document.body.appendChild(IconsManager.symbolsContainer);
@@ -157,7 +157,7 @@ class IconsManager {
 
     if (!IconsManager.iconsUsageList.includes(elementName)) {
       if (!IconsManager.symbolsContainer.querySelector(elementSelector)) {
-        const symbol = document.createElementNS('http://www.w3.org/2000/svg', 'symbol');
+        const symbol = document.createElementNS('https://www.w3.org/2000/svg', 'symbol');
         symbol.id = elementName;
         symbol.innerHTML = '<path d="' + path + '"></path>';
         symbol.setAttributeNS(null, 'viewBox', '0 0 ' + width + ' ' + height);
@@ -167,7 +167,7 @@ class IconsManager {
       IconsManager.iconsUsageList.push(elementName);
     }
 
-    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    const svg = document.createElementNS('https://www.w3.org/2000/svg', 'svg');
     svg.innerHTML = '<use xlink:href="' + elementSelector + '" />';
     svg.setAttributeNS(null, 'class', 'e-font-icon-svg e-' + elementName);
     return svg;
@@ -473,7 +473,7 @@ var _default = elementorModules.frontend.handlers.Base.extend({
   addHighlight() {
     const elementSettings = this.getElementSettings(),
           $svg = jQuery('<svg>', {
-      xmlns: 'http://www.w3.org/2000/svg',
+      xmlns: 'https://www.w3.org/2000/svg',
       viewBox: '0 0 500 150',
       preserveAspectRatio: 'none'
     }).html(this.getSvgPaths(elementSettings.marker));
@@ -6846,7 +6846,7 @@ class _default extends elementorModules.Module {
     elementorFrontend.elementsHandler.attachHandler('archive-posts', _archivePostsSkinClassic.default, 'archive_full_content');
     elementorFrontend.elementsHandler.attachHandler('archive-posts', _archivePostsSkinCards.default, 'archive_cards');
     jQuery(function () {
-      // Go to elementor element - if the URL is something like http://domain.com/any-page?preview=true&theme_template_id=6479
+      // Go to elementor element - if the URL is something like https://domain.com/any-page?preview=true&theme_template_id=6479
       var match = location.search.match(/theme_template_id=(\d*)/),
           $element = match ? jQuery('.elementor-' + match[1]) : [];
 

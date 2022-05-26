@@ -1278,7 +1278,7 @@ class playerYoutube extends _playerBase.default {
 
     if (this.currentVideoID && 11 === this.currentVideoID.length) {
       this.playlistItem.thumbnail = {
-        url: 'http://img.youtube.com/vi/' + this.playerObject.getVideoData().video_id + '/maxresdefault.jpg'
+        url: 'https://img.youtube.com/vi/' + this.playerObject.getVideoData().video_id + '/maxresdefault.jpg'
       };
       this.playlistItem.video_title = this.playerObject.getVideoData().title;
       this.playlistItem.duration = this.formatDuration(this.playerObject.getDuration());

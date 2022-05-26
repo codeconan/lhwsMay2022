@@ -15,7 +15,7 @@ License: MIT
 	}
 }((window || {}), function(window) {
 	"use strict";
-	var svgNS = "http://www.w3.org/2000/svg";
+	var svgNS = "https://www.w3.org/2000/svg";
 
 	var locationHref = '';
 
@@ -929,7 +929,7 @@ License: MIT
 				return r;
 				// For robust unpredictability, the function call below automatically
 				// discards an initial batch of values.  This is called RC4-drop[256].
-				// See http://google.com/search?q=rsa+fluhrer+response&btnI
+				// See https://google.com/search?q=rsa+fluhrer+response&btnI
 			};
 		}
 
@@ -6011,7 +6011,7 @@ License: MIT
 	};
 
 	SVGRenderer.prototype.configAnimation = function(animData){
-		this.svgElement.setAttribute('xmlns','http://www.w3.org/2000/svg');
+		this.svgElement.setAttribute('xmlns','https://www.w3.org/2000/svg');
 		if(this.renderConfig.viewBoxSize) {
 			this.svgElement.setAttribute('viewBox',this.renderConfig.viewBoxSize);
 		} else {
@@ -8325,7 +8325,7 @@ License: MIT
 		this.innerElem.setAttribute('width',this.assetData.w+"px");
 		this.innerElem.setAttribute('height',this.assetData.h+"px");
 		this.innerElem.setAttribute('preserveAspectRatio',this.assetData.pr || this.globalData.renderConfig.imagePreserveAspectRatio);
-		this.innerElem.setAttributeNS('http://www.w3.org/1999/xlink','href',assetPath);
+		this.innerElem.setAttributeNS('https://www.w3.org/1999/xlink','href',assetPath);
 
 		this.layerElement.appendChild(this.innerElem);
 	};
@@ -8499,7 +8499,7 @@ License: MIT
 						tSpan.setAttribute("transform", "translate(" + matrixHelper.props[12] + "," + matrixHelper.props[13] + ")");
 					}
 					tSpan.textContent = letters[i].val;
-					tSpan.setAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:space","preserve");
+					tSpan.setAttributeNS("https://www.w3.org/XML/1998/namespace", "xml:space","preserve");
 				}
 				//
 			}
@@ -10854,7 +10854,7 @@ This method searches for multiple shapes that affect a single element and one of
 				}
 			}else{
 				tSpan.textContent = letters[i].val;
-				tSpan.setAttributeNS("http://www.w3.org/XML/1998/namespace", "xml:space","preserve");
+				tSpan.setAttributeNS("https://www.w3.org/XML/1998/namespace", "xml:space","preserve");
 				if(!this.isMasked){
 					this.innerElem.appendChild(tParent);
 					//
@@ -10974,7 +10974,7 @@ This method searches for multiple shapes that affect a single element and one of
 			this.imageElem = createNS('image');
 			this.imageElem.setAttribute('width',this.assetData.w+"px");
 			this.imageElem.setAttribute('height',this.assetData.h+"px");
-			this.imageElem.setAttributeNS('http://www.w3.org/1999/xlink','href',assetPath);
+			this.imageElem.setAttributeNS('https://www.w3.org/1999/xlink','href',assetPath);
 			this.layerElement.appendChild(this.imageElem);
 			this.baseElement.setAttribute('width',this.assetData.w);
 			this.baseElement.setAttribute('height',this.assetData.h);

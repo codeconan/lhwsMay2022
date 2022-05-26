@@ -46,7 +46,7 @@ const NextStepLink = ( props ) => {
 					width="14"
 					height="9"
 					viewBox="0 0 14 9"
-					xmlns="http://www.w3.org/2000/svg"
+					xmlns="https://www.w3.org/2000/svg"
 				>
 					<path
 						fillRule="evenodd"
@@ -63,7 +63,7 @@ const NextStepLink = ( props ) => {
 					width="14"
 					height="9"
 					viewBox="0 0 14 9"
-					xmlns="http://www.w3.org/2000/svg"
+					xmlns="https://www.w3.org/2000/svg"
 				>
 					<path
 						fillRule="evenodd"

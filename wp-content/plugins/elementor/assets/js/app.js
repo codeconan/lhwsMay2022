@@ -12980,7 +12980,7 @@ function ExportInfoModal(props) {
   }), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('What’s a Template Kit?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('A Template Kit is a .zip file that contains all the parts of a complete site. It’s an easy way to get a site up and running quickly.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
     url: "https://go.elementor.com/app-what-are-kits"
   }, __(' Learn more about Template Kits', 'elementor'))))), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('How does exporting work?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('To turn your site into a Template Kit, select the templates, content, settings and plugins you want to include. Once it’s ready, you’ll get a .zip file that you can import to other sites.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
-    url: "http://go.elementor.com/app-export-kit"
+    url: "https://go.elementor.com/app-export-kit"
   }, __('Learn More', 'elementor'))))));
 }
 
@@ -13020,7 +13020,7 @@ function ImportInfoModal(props) {
   }), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('What’s a Template Kit?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('A Template Kit is a .zip file that contains all the parts of a complete site. It’s an easy way to get a site up and running quickly.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
     url: "https://go.elementor.com/app-what-are-kits"
   }, __(' Learn more about Template Kits', 'elementor'))))), /*#__PURE__*/_react.default.createElement(_infoModal.default.Section, null, /*#__PURE__*/_react.default.createElement(_infoModal.default.Heading, null, __('How does importing work?', 'elementor')), /*#__PURE__*/_react.default.createElement(_infoModal.default.Text, null, /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, __('Start by uploading the file and selecting the parts and plugins you want to apply. If there are any overlaps between the kit and your current design, you’ll be able to choose which imported parts you want to apply or ignore. Once the file is ready, the kit will be applied to your site and you’ll be able to see it live.', 'elementor'), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement(_inlineLink.default, {
-    url: "http://go.elementor.com/app-import-kit"
+    url: "https://go.elementor.com/app-import-kit"
   }, __('Learn More', 'elementor'))))));
 }
 
@@ -16198,7 +16198,7 @@ module.exports = !__webpack_require__(/*! ./_descriptors */ "../node_modules/cor
   \**********************************************************/
 /***/ ((module) => {
 
-// fast apply, http://jsperf.lnkit.com/fast-apply/5
+// fast apply, https://jsperf.lnkit.com/fast-apply/5
 module.exports = function (fn, args, that) {
   var un = that === undefined;
   switch (args.length) {
@@ -22063,7 +22063,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
           var err = new Error(
             'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
             'Use `PropTypes.checkPropTypes()` to call them. ' +
-            'Read more at http://fb.me/use-check-prop-types'
+            'Read more at https://fb.me/use-check-prop-types'
           );
           err.name = 'Invariant Violation';
           throw err;
@@ -22492,7 +22492,7 @@ if (true) {
   var ReactIs = __webpack_require__(/*! react-is */ "../node_modules/react-is/index.js");
 
   // By explicitly using `prop-types` you are opting into new development behavior.
-  // http://fb.me/prop-types-in-prod
+  // https://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "../node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}

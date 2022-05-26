@@ -28,7 +28,7 @@ const MediaUploader = () => {
 			width: siteLogo.width,
 		};
 
-		if ( window.location.protocol === 'http:' ) {
+		if ( window.location.protocol === 'https:' ) {
 			getDataUri( media.url, function ( data ) {
 				mediaData.dataUri = data;
 				updateValues( mediaData );
@@ -112,7 +112,7 @@ const MediaUploader = () => {
 								title={ __( 'Remove Logo', 'astra-sites' ) }
 							>
 								<svg
-									xmlns="http://www.w3.org/2000/svg"
+									xmlns="https://www.w3.org/2000/svg"
 									width="8"
 									height="8"
 									viewBox="0 0 8 8"

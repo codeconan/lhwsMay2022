@@ -1185,7 +1185,7 @@ function ItemHeader(props) {
     text: __('Nothing to worry about, just try again. If the problem continues, head over to the Help Center.', 'elementor'),
     approveButtonText: __('Learn More', 'elementor'),
     approveButtonColor: "link",
-    approveButtonUrl: "http://go.elementor.com/app-kit-library-error",
+    approveButtonUrl: "https://go.elementor.com/app-kit-library-error",
     approveButtonOnClick: function approveButtonOnClick() {
       return setError(false);
     },
@@ -3876,7 +3876,7 @@ function Index(props) {
     description: __('Nothing to worry about, use 🔄 on the top right to try again. If the problem continues, head over to the Help Center.', 'elementor'),
     button: {
       text: __('Learn More', 'elementor'),
-      url: 'http://go.elementor.com/app-kit-library-error',
+      url: 'https://go.elementor.com/app-kit-library-error',
       target: '_blank'
     }
   }), isSuccess && 0 < data.length && queryParams.ready && /*#__PURE__*/_react.default.createElement(_kitList.default, {

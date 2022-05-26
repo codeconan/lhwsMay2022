@@ -2,8 +2,8 @@
  * History.js
  * https://github.com/browserstate/history.js
  *
- * Copyright © 2014+ Bevry Pty Ltd us@bevry.me (http://bevry.me)
- * Copyright © 2011-2013 Benjamin Lupton b@lupton.cc (http://balupton.com)
+ * Copyright © 2014+ Bevry Pty Ltd us@bevry.me (https://bevry.me)
+ * Copyright © 2011-2013 Benjamin Lupton b@lupton.cc (https://balupton.com)
  * Released under the BSD License
  * https://github.com/browserstate/history.js/blob/master/LICENSE.md
  */
